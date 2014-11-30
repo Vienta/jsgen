@@ -6,7 +6,7 @@
   },
   "name": "jsgen",
   "version": "0.8.5",
-  "cdnHost": "http://cdn.angularjs.cn",
+  "cdnHost": "/static",
   "description": "",
   "keywords": [
     "Node.js",
