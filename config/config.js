@@ -17,7 +17,7 @@ module.exports = {
     favicon: '/static/dist/favicon.ico',  //favicon存放地址
     charset: 'utf-8',
     autoStatic: '/static',  //自动响应静态文件的uri，比如 http://rrestjs.com/static/rrest.jpg 将会自动响应给客户端，为了加速这里只能设置一级目录
-    staticFolder: '/static/dist',  //自动响应静态文件的根目录，比如  http://rrestjs.com/static/rrest.jpg 将返回 baseDir+'/static/rrest.jpg'
+    staticFolder: '/static/cdn',  //自动响应静态文件的根目录，比如  http://rrestjs.com/static/rrest.jpg 将返回 baseDir+'/static/rrest.jpg'
     staticParse: true,//是否开启静态文件压缩整合功能
     staticParseName: 'parse',//压缩整合功能的名称，例如用户可以'/static/?parse=/index.body.css|/index.user.css|/user.face.css'压缩整合成一个css响应给客户端
     staticParseCacheTime: 1000*60*60,//压缩整合缓存时间，1小时
