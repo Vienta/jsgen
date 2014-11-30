@@ -2,6 +2,5 @@
 forever stop  app.js 
 git  pull origin master
 node app.js install
-gulp js-app
 #node app.js [recache]
 forever start app.js [recache]
